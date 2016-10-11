@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11521.1" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11517.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="vuControl___Duo2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="top" distribution="equalSpacing" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="jB4-0t-qrI">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hjf-nq-Ola">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="fYa-yi-xdm"/>
+                                            <constraint firstAttribute="width" constant="55" id="kuG-fB-zNy"/>
+                                        </constraints>
+                                        <state key="normal" image="ok"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Sc-ap-J8P">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="gef-Lr-phn"/>
+                                            <constraint firstAttribute="width" constant="55" id="kYY-Hk-KbU"/>
+                                        </constraints>
+                                        <state key="normal" image="exit"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKj-4c-NM5">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="VUY-00-98r"/>
+                                            <constraint firstAttribute="width" constant="55" id="X5t-tL-HYe"/>
+                                        </constraints>
+                                        <state key="normal" image="pause"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngL-mU-54p">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="ROh-HA-0Sb"/>
+                                            <constraint firstAttribute="width" constant="55" id="ZHL-xh-J5b"/>
+                                        </constraints>
+                                        <state key="normal" image="play"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="top" distribution="equalSpacing" alignment="top" spacing="41" translatesAutoresizingMaskIntoConstraints="NO" id="HVi-WB-959">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fnM-89-4yf">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="O8e-LO-Khi"/>
+                                            <constraint firstAttribute="width" constant="55" id="f3p-7D-PKV"/>
+                                        </constraints>
+                                        <state key="normal" image="ok"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fYg-dP-sKy">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="CnL-eZ-YIW"/>
+                                            <constraint firstAttribute="width" constant="55" id="pzZ-nh-41b"/>
+                                        </constraints>
+                                        <state key="normal" image="exit"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCM-vk-7r9">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="5TX-WY-nCQ"/>
+                                            <constraint firstAttribute="width" constant="55" id="wWE-nB-8bL"/>
+                                        </constraints>
+                                        <state key="normal" image="pause"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vpm-Ow-NYD">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="msZ-Gl-4r4"/>
+                                            <constraint firstAttribute="width" constant="55" id="p9a-yK-mSq"/>
+                                        </constraints>
+                                        <state key="normal" image="play"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="jB4-0t-qrI" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="8" id="0Bg-WC-Ubo"/>
+                            <constraint firstItem="HVi-WB-959" firstAttribute="trailing" secondItem="S3S-Oj-5AN" secondAttribute="trailingMargin" id="2am-PQ-Xcy"/>
+                            <constraint firstItem="HVi-WB-959" firstAttribute="top" secondItem="jB4-0t-qrI" secondAttribute="bottom" constant="8" id="QFf-cs-gBM"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="jB4-0t-qrI" secondAttribute="leading" id="cN7-2o-MHQ"/>
+                            <constraint firstItem="HVi-WB-959" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leadingMargin" id="gSA-vn-NCP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jB4-0t-qrI" secondAttribute="trailing" id="oQ7-va-rNZ"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33.600000000000001" y="37.781109445277366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="exit" width="55" height="55"/>
+        <image name="ok" width="55" height="55"/>
+        <image name="pause" width="55" height="55"/>
+        <image name="play" width="55" height="55"/>
+    </resources>
+</document>
